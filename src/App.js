@@ -1,6 +1,16 @@
+import Routes from "./routes/Routes";
+import CssBaseline from '@material-ui/core/CssBaseline';
+import { AuthProvider } from "./contexts/Auth";
+import { AlertProvider } from "./contexts/Alerts";
+
 function App() {
   return (
-  <p>Tela inicial</p>
+    <AlertProvider>
+      <AuthProvider>
+        <CssBaseline />
+        <Routes />
+      </AuthProvider>
+    </AlertProvider>
   );
 }
 
