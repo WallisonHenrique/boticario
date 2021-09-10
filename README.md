@@ -4,6 +4,10 @@
 Clone o repositório boticario https://github.com/WallisonHenrique/boticario.git.
 
 Abra o terminal na raíz do projeto e execute o comando `yarn install`. Após a instalação dos pacotes do node execute o comando `yarn start` para rodar o projeto.
+Utilize o usuário e senha padrões da tela de login.
+
+email: john.doe@fake.com
+password: 1234
 
 ## Tecnologias
 Fiz uso dos seguintes recursos:
