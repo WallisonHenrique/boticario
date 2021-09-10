@@ -6,7 +6,7 @@ import { reducer } from '../../../utils/reducerState';
 import LinkSignUp from './LinkSignUp';
 
 const DEFAULT_VALUES = { email: 'john.doe@fake.com', password: '1234' };
-const INPUTS = [ { name: 'email', autoFocus: true }, { name: 'password' } ];
+const INPUTS = [ { name: 'email', autoFocus: true }, { name: 'password', type: 'password' } ];
 
 const SignInForm = () => {
     const classes = useStyles();
